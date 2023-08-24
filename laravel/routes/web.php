@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomepageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,3 +15,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [\App\Http\Controllers\HomepageController::class,'index']);
+Route::get('/kontak', [HomepageController::class, 'kontak'])->name('kontak');
+Route::get('/about', [HomepageController::class, 'about'])->name('about');
