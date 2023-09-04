@@ -7,13 +7,13 @@
       <div id="carousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-              <img src="{{ asset('images/slide1.jpg') }}" class="d-block w-100" alt="...">
+              <img src="{{ asset('images/natural.jpg') }}" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="{{ asset('images/slide2.jpg') }}" class="d-block w-100" alt="...">
+            <img src="{{ asset('images/juicy.jpg') }}" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="{{ asset('images/slide3.jpg') }}" class="d-block w-100" alt="...">
+            <img src="{{ asset('images/summer.png') }}" class="d-block w-100" alt="...">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
@@ -31,17 +31,17 @@
   <!-- kategori produk -->
   <div class="row mt-4">
     <div class="col col-md-12 col-sm-12 mb-4">
-      <h2 class="text-center">Kategori Produk</h2>
+      <h2 class="text-center">Produk</h2>
     </div>
     <!-- kategori pertama -->
     <div class="col-md-4">
       <div class="card mb-4 shadow-sm">
         <a href="{{ URL::to('kategori/satu') }}">
-          <img src="{{asset('images/slide1.jpg') }}" alt="foto kategori" class="card-img-top">
+          <img src="{{asset('images/summer.png') }}" alt="foto kategori" class="card-img-top">
         </a>
         <div class="card-body">
           <a href="{{ URL::to('kategori/satu') }}" class="text-decoration-none">
-            <p class="card-text">Kategori Pertama</p>
+            <p class="card-text">SUMMER FRUIT</p>
           </a>
         </div>
       </div>
@@ -50,11 +50,11 @@
     <div class="col-md-4">
       <div class="card mb-4 shadow-sm">
         <a href="{{ URL::to('kategori/dua') }}">
-          <img src="{{asset('images/slide1.jpg') }}" alt="foto kategori" class="card-img-top">
+          <img src="{{asset('images/natural.jpg') }}" alt="foto kategori" class="card-img-top">
         </a>
         <div class="card-body">
           <a href="{{ URL::to('kategori/dua') }}" class="text-decoration-none">
-            <p class="card-text">Kategori Kedua</p>
+            <p class="card-text">NATURAL FRUIT</p>
           </a>
         </div>
       </div>
@@ -63,11 +63,11 @@
     <div class="col-md-4">
       <div class="card mb-4 shadow-sm">
         <a href="{{ URL::to('kategori/tiga') }}">
-          <img src="{{asset('images/slide1.jpg') }}" alt="foto kategori" class="card-img-top">
+          <img src="{{asset('images/juicy.jpg') }}" alt="foto kategori" class="card-img-top">
         </a>
         <div class="card-body">
           <a href="{{ URL::to('kategori/tiga') }}" class="text-decoration-none">
-            <p class="card-text">Kategori Ketiga</p>
+            <p class="card-text">JUICY FRUIT</p>
           </a>
         </div>
       </div>
@@ -77,7 +77,7 @@
   <!-- produk Promo-->
   <div class="row mt-4">
     <div class="col col-md-12 col-sm-12 mb-4">
-      <h2 class="text-center">Promo</h2>
+      <h2 class="text-center">PROMO</h2>
     </div>
     <!-- produk pertama -->
     <div class="col-md-4">
@@ -88,7 +88,7 @@
         <div class="card-body">
           <a href="{{ URL::to('produk/satu') }}" class="text-decoration-none">
             <p class="card-text">
-              Produk Pertama
+              Pisang
             </p>
           </a>
           <div class="row mt-4">
@@ -117,7 +117,7 @@
         <div class="card-body">
           <a href="{{ URL::to('produk/dua') }}" class="text-decoration-none">
             <p class="card-text">
-              Produk Kedua
+              Mangga
             </p>
           </a>
           <div class="row mt-4">
@@ -146,7 +146,7 @@
         <div class="card-body">
           <a href="{{ URL::to('produk/tiga') }}" class="text-decoration-none">
             <p class="card-text">
-              Produk Ketiga
+              Alpukat
             </p>
           </a>
           <div class="row mt-4">
@@ -171,7 +171,7 @@
   <!-- produk Terbaru-->
   <div class="row mt-4">
     <div class="col col-md-12 col-sm-12 mb-4">
-      <h2 class="text-center">Terbaru</h2>
+      <h2 class="text-center">NEW PRODUCT</h2>
     </div>
     <!-- produk pertama -->
     <div class="col-md-4">
@@ -182,7 +182,7 @@
         <div class="card-body">
           <a href="{{ URL::to('produk/satu') }}" class="text-decoration-none">
             <p class="card-text">
-              Produk Pertama
+              Durian
             </p>
           </a>
           <div class="row mt-4">
@@ -209,7 +209,7 @@
         <div class="card-body">
           <a href="{{ URL::to('produk/dua') }}" class="text-decoration-none">
             <p class="card-text">
-              Produk Kedua
+              Sirsat
             </p>
           </a>
           <div class="row mt-4">
@@ -236,7 +236,7 @@
         <div class="card-body">
           <a href="{{ URL::to('produk/tiga') }}" class="text-decoration-none">
             <p class="card-text">
-              Produk Ketiga
+              Nangka
             </p>
           </a>
           <div class="row mt-4">
@@ -271,7 +271,7 @@
       </p>
       <p class="text-center">
         <a href="" class="btn btn-outline-secondary">
-          Baca Selengkapnya
+          read more
         </a>      
       </p>
     </div>

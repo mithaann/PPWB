@@ -1,6 +1,8 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
   <div class="container">
-    <a class="navbar-brand" href="/">Toko</a>
+  <a class="navbar-brand" href="/">
+    <img src="{{ asset('images/logom.png') }}" alt="Logo" style="width: 100px; height: auto;">
+</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -17,10 +19,10 @@
           <a class="nav-link" href="#">Kategori</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ route('kontak') }}">Kontak</a>
+          <a class="nav-link" href="{{ route('kontak') }}">Contact</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ route('about') }}">Tentang Kami</a>
+          <a class="nav-link" href="{{ route('about') }}">About Us</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Login</a>
