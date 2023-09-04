@@ -17,3 +17,4 @@ use App\Http\Controllers\HomepageController;
 Route::get('/', [\App\Http\Controllers\HomepageController::class,'index']);
 Route::get('/kontak', [HomepageController::class, 'kontak'])->name('kontak');
 Route::get('/about', [HomepageController::class, 'about'])->name('about');
+Route::get('/news', [NewspageController::class, 'index']);
