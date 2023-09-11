@@ -1,4 +1,3 @@
-<div class="hero_area">
 <header class="header_section">
       <div class="container">
         <div class="top_contact-container">
@@ -34,7 +33,7 @@
             <div class="d-flex  flex-column flex-lg-row align-items-center w-100 justify-content-between">
               <ul class="navbar-nav  ">
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="{{ route('about') }}"> About </a>

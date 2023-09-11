@@ -1,5 +1,6 @@
 @extends('layouts.template')
 @section('content')
+<div class="hero_area">
 <section class=" slider_section position-relative">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
