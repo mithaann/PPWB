@@ -43,48 +43,47 @@
   <script type="text/javascript" src="{{asset('js/bootstrap.js')}}"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js">
   </script>
-  <script type="text/javascript">
-    $(".owl-carousel").owlCarousel({
-      loop: true,
-      margin: 10,
-      nav: true,
-      navText: [],
-      autoplay: true,
-      responsive: {
-        0: {
-          items: 1
-        },
-        600: {
-          items: 2
-        },
-        1000: {
-          items: 4
-        }
+ <script type="text/javascript">
+  $(".owl-carousel").owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: true,
+    navText: [],
+    autoplay: true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      600: {
+        items: 2
+      },
+      1000: {
+        items: 4
       }
-    });
-  </script>
-  <script type="text/javascript">
-    $(".owl-2").owlCarousel({
-      loop: true,
-      margin: 10,
-      nav: true,
-      navText: [],
-      autoplay: true,
+    }
+  });
+</script>
+<script type="text/javascript">
+  $(".owl-2").owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: true,
+    navText: [],
+    autoplay: true,
 
-      responsive: {
-        0: {
-          items: 1
-        },
-        600: {
-          items: 2
-        },
-        1000: {
-          items: 4
-        }
+    responsive: {
+      0: {
+        items: 1
+      },
+      600: {
+        items: 2
+      },
+      1000: {
+        items: 4
       }
-    });
-  </script>
-
+    }
+  });
+</script>
     <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
