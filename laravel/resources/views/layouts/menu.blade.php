@@ -36,7 +36,7 @@
                   <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about.html"> About </a>
+                  <a class="nav-link" href="{{ route('about') }}"> About </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="medicine.html"> Product </a>
