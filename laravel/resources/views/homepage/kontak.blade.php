@@ -1,43 +1,62 @@
 @extends('layouts.template')
 @section('content')
 <!-- header section start -->
-<div class="header_section">
-         <div class="container-fluid">
-            <nav class="navbar navbar-light bg-light justify-content-between">
-               <div id="mySidenav" class="sidenav">
-                  
-               </div>
-               <form class="form-inline ">
-                  <div class="login_text">
-                     <ul>
-                        
-                     </ul>
-                  </div>
-               </form>
-            </nav>
+<section class="contact_section layout_padding">
+   <div class="container">
+     <div class="row">
+       <div class="custom_heading-container ">
+         <h2>
+           Request A call back
+         </h2>
+       </div>
+     </div>
+   </div>
+   <div class="container layout_padding2">
+     <div class="row">
+       <div class="col-md-5">
+         <div class="form_contaier">
+           <form>
+             <div class="form-group">
+               <label for="exampleInputName1">Name</label>
+               <input type="text" class="form-control" id="exampleInputName1">
+             </div>
+             <div class="form-group">
+               <label for="exampleInputNumber1">Phone Number</label>
+               <input type="text" class="form-control" id="exampleInputNumber1">
+             </div>
+
+             <div class="form-group">
+               <label for="exampleInputEmail1">Email </label>
+               <input type="email" class="form-control" id="exampleInputEmail1">
+             </div>
+             <div class="form-group ">
+               <label for="inputState">Select medicine</label>
+               <select id="inputState" class="form-control">
+                 <option selected>Medicine 1</option>
+                 <option selected>Medicine 2</option>
+                 <option selected>Medicine 3</option>
+               </select>
+             </div>
+             <div class="form-group">
+               <label for="exampleInputMessage">Message</label>
+               <input type="text" class="form-control" id="exampleInputMessage">
+             </div>
+             <button type="submit" class="">Send</button>
+           </form>
          </div>
-      </div>
-      <!-- header section end -->
-      <!-- contact section start -->
-      <div class="contact_section layout_padding">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-6">
-                  <h1 class="contact_taital">Get In Touch</h1>
-                  <p class="contact_text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation  eu </p>
-               </div>
-               <div class="col-md-6">
-                  <div class="contact_main">
-                     <div class="contact_bt"><a href="#">Contact Form</a></div>
-                     <div class="newletter_bt"><a href="#">Newletter</a></div>
-                  </div>
-               </div>
-            </div>
+       </div>
+       <div class="col-md-7">
+         <div class="detail-box">
+           <h3>
+             Get Now Medicines
+           </h3>
+           <p>
+             There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+             in some form, by injected humour, or randomised words which don't look even slightly believable.
+           </p>
          </div>
-         <div class="map_main">
-            <div class="map-responsive">
-               <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Eiffel+Tower+Paris+France" width="600" height="400" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
-            </div>
-         </div>
-      </div>
+       </div>
+     </div>
+   </div>
+ </section>
 @endsection

@@ -42,7 +42,7 @@
                   <a class="nav-link" href="medicine.html"> Product </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact us</a>
+                  <a class="nav-link" href="{{ route('kontak') }}">Contact us</a>
                 </li>
               </ul>
               <form class="form-inline ">
