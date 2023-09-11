@@ -1,57 +1,69 @@
-<div class="footer_section layout_padding">
-         <div class="container">
-            <div class="footer_logo"><a href="index.html"><img src="images/footer-logo.png"></a></div>
-            <div class="contact_section_2">
-               <div class="row">
-                  <div class="col-sm-4">
-                     <h3 class="address_text">Contact Us</h3>
-                     <div class="addres   s_bt">
-                        <ul>
-                           <li>
-                              <a href="#">
-                              <i class="fa fa-map-marker" aria-hidden="true"></i><span class="padding_left10">Address : Loram Ipusm</span>
-                              </a>
-                           </li>
-                           <li>
-                              <a href="#">
-                              <i class="fa fa-phone" aria-hidden="true"></i><span class="padding_left10">Call : +01 1234567890</span>
-                              </a>
-                           </li>
-                           <li>
-                              <a href="#">
-                              <i class="fa fa-envelope" aria-hidden="true"></i><span class="padding_left10">Email : demo@gmail.com</span>
-                              </a>
-                           </li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-sm-4">
-                     <div class="footer_logo_1"><a href="index.html"><img src="images/footer-logo.png"></a></div>
-                     <p class="dummy_text">commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non</p>
-                  </div>
-                  <div class="col-sm-4">
-                     <div class="main">
-                        <h3 class="address_text">Best Products</h3>
-                        <p class="ipsum_text">dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non</p>
-                     </div>
-                  </div>
-               </div>
+<section class="info_section layout_padding2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="info_contact">
+            <h4>
+              Contact
+            </h4>
+            <div class="box">
+              <div class="img-box">
+                <img src="images/telephone-symbol-button.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  +01 123567894
+                </h6>
+              </div>
             </div>
-            <div class="social_icon">
-               <ul>
-                  <li>
-                     <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                  </li>
-                  <li>
-                     <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                  </li>
-                  <li>
-                     <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                  </li>
-                  <li>
-                     <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                  </li>
-               </ul>
+            <div class="box">
+              <div class="img-box">
+                <img src="images/email.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  demo@gmail
+                </h6>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_menu">
+            <h4>
+              Menu
+            </h4>
+            <ul class="navbar-nav  ">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html"> About </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="medicine.html"> Medicine </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="buy.html"> Online Buy </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="info_news">
+            <h4>
+              newsletter
+            </h4>
+            <form action="">
+              <input type="text" placeholder="Enter Your email">
+              <div class="d-flex justify-content-center justify-content-end mt-3">
+                <button>
+                  Subscribe
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
+    </div>
+  </section>
