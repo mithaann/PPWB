@@ -1,3 +1,4 @@
+<div class="hero_area">
 <header class="header_section">
       <div class="container">
         <div class="top_contact-container">
