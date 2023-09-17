@@ -9,6 +9,7 @@
                 <div class="col-md-4 d-flex align-items-center">
                   <div class="img-box">
                     <img src="images/design fruit.jpg" alt="">
+                    <img src="images/design fruit.jpg" alt="">
                   </div>
                 </div>
                 <div class="col-md-8 d-flex align-items-center">
@@ -31,6 +32,8 @@
               </div>
             </div>
           </div>
+          </div>
+        </div>       
           </div>
         </div>       
       </div>
@@ -98,6 +101,7 @@
           <div class="detail-box">
             <h5>
             Import in various countries
+            Import in various countries
             </h5>
             <p>
             </p>
@@ -129,6 +133,7 @@
           </div>
           <div class="detail-box">
             <h5>
+              License of government
               License of government
             </h5>
             <p>
@@ -221,6 +226,7 @@
           <div class="detail-box">
             <h5>
             Guaranteed clean and fresh 
+            Guaranteed clean and fresh 
             </h5>
             <p>
             </p>
@@ -243,6 +249,9 @@
               You can get<br>
               imported fruits<br>
               only at our store.
+              You can get<br>
+              imported fruits<br>
+              only at our store.
             </h2>
             <p>
             </p>
@@ -252,6 +261,7 @@
         </div>
         <div class="col-lg-7 col-md-5">
           <div class="img-box">
+            <img src="images/fee aes.jpg" alt="">
             <img src="images/fee aes.jpg" alt="">
           </div>
         </div>
@@ -269,9 +279,11 @@
 
       <div class="img-box">
         <img src="images/animated fruit.png" alt="">
+        <img src="images/animated fruit.png" alt="">
       </div>
       <div class="detail-box">
         <p>
+        Our imported fruits are guaranteed to be fresh, grown from selected trees and cultivated regularly.
         Our imported fruits are guaranteed to be fresh, grown from selected trees and cultivated regularly.
         </p>
         <div class="d-flex justify-content-center">
@@ -298,6 +310,9 @@
           <li data-target="#carouselExample2Indicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExample2Indicators" data-slide-to="1"></li>
           <li data-target="#carouselExample2Indicators" data-slide-to="2"></li>
+          <li data-target="#carouselExample2Indicators" data-slide-to="3"></li>
+          <li data-target="#carouselExample2Indicators" data-slide-to="4"></li>
+          <li data-target="#carouselExample2Indicators" data-slide-to="5"></li>
           <li data-target="#carouselExample2Indicators" data-slide-to="3"></li>
           <li data-target="#carouselExample2Indicators" data-slide-to="4"></li>
           <li data-target="#carouselExample2Indicators" data-slide-to="5"></li>
