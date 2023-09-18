@@ -3,7 +3,7 @@
 <section class="health_section layout_padding">
     <div class="health_carousel-container">
       <h2 class="text-uppercase">
-        Vitamins & Supplements
+       import fruit
       </h2>
       <div class="carousel-wrap layout_padding2">
         <div class="owl-carousel owl-2">
@@ -28,7 +28,7 @@
                 </div>
                 <div class="text">
                   <h6>
-                    Medicine
+                    Pepaya
                   </h6>
                   <h6 class="price">
                     <span>
@@ -61,7 +61,7 @@
                 </div>
                 <div class="text">
                   <h6>
-                    Medicine
+                    Mangga
                   </h6>
                   <h6 class="price">
                     <span>
@@ -94,7 +94,7 @@
                 </div>
                 <div class="text">
                   <h6>
-                    Medicine
+                    Anggur
                   </h6>
                   <h6 class="price">
                     <span>
@@ -136,6 +136,55 @@
                     20,000
                   </h6>
                 </div>
+                <div class="img-box">
+                <img src="images/blimbing.jpg" alt="">
+              </div>
+              <div class="detail-box">
+                <div class="star_container">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+
+                </div>
+                <div class="text">
+                  <h6>
+                     Blimbing
+                  </h6>
+                  <h6 class="price">
+                    <span>
+                      $
+                    </span>
+                    15.000
+                  </h6>
+                </div>
+                <div class="img-box">
+                <img src="images/duren.jpg" alt="">
+              </div>
+              <div class="detail-box">
+                <div class="star_container">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+
+                </div>
+                <div class="text">
+                  <h6>
+                     Duren
+                  </h6>
+                  <h6 class="price">
+                    <span>
+                      $
+                    </span>
+                    30
+                  </h6>
+                </div>
+              </div>
+            </div>
+          </div>
               </div>
             </div>
           </div>

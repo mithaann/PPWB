@@ -22,7 +22,7 @@
               </div>
               <div class="detail-box">
                 <h6>
-                  demo@gmail
+                  feefruit@gmail
                 </h6>
               </div>
             </div>
@@ -38,13 +38,13 @@
                 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html"> About </a>
+                <a class="nav-link" href="{{ route('about') }}"> About </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="medicine.html"> Medicine </a>
+                <a class="nav-link" href="{{ route('produk') }}"> Product </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="buy.html"> Online Buy </a>
+                <a class="nav-link" href="{{ route('kontak') }}"> Contact Us </a>
               </li>
             </ul>
           </div>
@@ -57,9 +57,7 @@
             <form action="">
               <input type="text" placeholder="Enter Your email">
               <div class="d-flex justify-content-center justify-content-end mt-3">
-                <button>
-                  Subscribe
-                </button>
+               <a href="" class="btn btn-danger btn-lg rounded-0 " style="width:50%">subcribe</a>
               </div>
             </form>
           </div>
