@@ -1,4 +1,5 @@
 <header class="header_section">
+    <div class="head1">
       <div class="container">
         <div class="top_contact-container">
           <div class="tel_container">
@@ -19,6 +20,7 @@
           </div>
         </div>
       </div>
+    </div>
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
           <a class="navbar-brand" href="index.html">

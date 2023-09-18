@@ -132,7 +132,6 @@
           <div class="detail-box">
             <h5>
               License of government
-              License of government
             </h5>
             <p>
             </p>
@@ -223,7 +222,6 @@
           </div>
           <div class="detail-box">
             <h5>
-            Guaranteed clean and fresh 
             Guaranteed clean and fresh 
             </h5>
             <p>
