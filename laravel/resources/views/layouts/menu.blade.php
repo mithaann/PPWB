@@ -50,7 +50,7 @@
                 <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
               </form>
               <div class="login_btn-contanier ml-0 ml-lg-5">
-                <a href="">
+                <a href="{{ route('login') }}">
                   <img src="images/user.png" alt="">
                   <span>
                     Login

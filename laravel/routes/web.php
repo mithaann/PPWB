@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomepageController;
-
+use App\Http\Controllers\LoginController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,3 +19,4 @@ Route::get('/kontak', [HomepageController::class, 'kontak'])->name('kontak');
 Route::get('/about', [HomepageController::class, 'about'])->name('about');
 Route::get('/produk', [HomepageController::class, 'produk'])->name('produk');
 Route::get('/news', [NewspageController::class, 'index']);
+Route::get('/login', [LoginController::class, 'login'])->name('login');
