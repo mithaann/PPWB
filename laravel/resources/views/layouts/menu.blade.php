@@ -39,7 +39,7 @@
                   <a class="nav-link" href="{{ route('about') }}"> About </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="medicine.html"> Product </a>
+                  <a class="nav-link" href="{{ route('produk') }}"> Product </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="{{ route('kontak') }}">Contact us</a>
