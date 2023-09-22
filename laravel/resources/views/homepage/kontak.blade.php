@@ -28,14 +28,6 @@
                <label for="exampleInputEmail1">Email </label>
                <input type="email" class="form-control" id="exampleInputEmail1">
              </div>
-             <div class="form-group ">
-               <label for="inputState">Select medicine</label>
-               <select id="inputState" class="form-control">
-                 <option selected>Medicine 1</option>
-                 <option selected>Medicine 2</option>
-                 <option selected>Medicine 3</option>
-               </select>
-             </div>
              <div class="form-group">
                <label for="exampleInputMessage">Message</label>
                <input type="text" class="form-control" id="exampleInputMessage">
@@ -45,14 +37,7 @@
          </div>
        </div>
        <div class="col-md-7">
-         <div class="detail-box">
-           <h3>
-             Get Now Medicines
-           </h3>
-           <p>
-             There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-             in some form, by injected humour, or randomised words which don't look even slightly believable.
-           </p>
+                    <img src="images/logom.png" alt="" style="width: 750px;">
          </div>
        </div>
      </div>

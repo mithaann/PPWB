@@ -468,7 +468,7 @@ a:focus {
 
 .discount_section .detail-box a:hover {
   background-color: transparent;
-  color: #10e7f4;
+  color: #f78265;
 }
 
 .discount_section .img-box img {
@@ -1272,7 +1272,7 @@ a:focus {
    }
    
    .feature_section .feature_container .box:hover .img-box {
-     border: 1px solid #10e7f4;
+     border: 1px solid #10f0f4;
    }
    
    .feature_section .feature_container .box:hover .img-box svg {
@@ -1305,7 +1305,7 @@ a:focus {
    }
    
    .discount_section .detail-box h2 span {
-     color: #10e7f4;
+     color: #f44d10;
    }
    
    .discount_section .detail-box p {
