@@ -270,14 +270,14 @@
       </div>
 
       <div class="img-box">
-        <img src="images/animated fruit.png" alt="">
+        <img src="images/fruit image.png" alt="">
       </div>
       <div class="detail-box">
         <p class="txt-sub">
         Our imported fruits are guaranteed to be fresh, grown from selected trees and cultivated regularly.
         </p>
         <div class="d-flex justify-content-center">
-          <a href="">
+          <a href="{{ route('about') }}">
             Read More
           </a>
         </div>

@@ -624,6 +624,9 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
 }
+.txt-p {
+  font-size: 20px;
+}
 
 .about_section .container .img-box {
   margin: 45px 0;
