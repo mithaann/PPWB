@@ -22,7 +22,7 @@
                       </span>
                     </h2>
                     <div>
-                      <a href="">
+                      <a href="{{ route('produk') }}">
                         Buy Now
                       </a>
                     </div>
@@ -277,7 +277,7 @@
         Our imported fruits are guaranteed to be fresh, grown from selected trees and cultivated regularly.
         </p>
         <div class="d-flex justify-content-center">
-          <a href="">
+          <a href="{{ route('about') }}">
             Read More
           </a>
         </div>

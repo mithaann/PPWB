@@ -1,200 +1,219 @@
 @extends('layouts.template')
 @section('content')
-<section class="health_section layout_padding">
-    <div class="health_carousel-container">
-      <h2 class="text-uppercase">
-       import fruit
-      </h2>
-      <div class="carousel-wrap layout_padding2">
-        <div class="owl-carousel owl-2">
-          <div class="item">
-            <div class="box">
-              <div class="btn_container">
-                <a href="">
-                  Buy Now
-                </a>
-              </div>
+<section class="shop_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>
+          Latest Products
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="">
               <div class="img-box">
-                <img src="images/pepaya.jpg" alt="">
+                <img src="images/p1.png" alt="">
               </div>
               <div class="detail-box">
-                <div class="star_container">
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star-o" aria-hidden="true"></i>
-
-                </div>
-                <div class="text">
-                  <h6>
-                    Pepaya
-                  </h6>
-                  <h6 class="price">
-                    <span>
-                      $
-                    </span>
-                    30
-                  </h6>
-                </div>
+                <h6>
+                  Ring
+                </h6>
+                <h6>
+                  Price
+                  <span>
+                    $200
+                  </span>
+                </h6>
               </div>
-            </div>
+              <div class="new">
+                <span>
+                  New
+                </span>
+              </div>
+            </a>
           </div>
-          <div class="item">
-            <div class="box">
-              <div class="btn_container">
-                <a href="">
-                  Buy Now
-                </a>
-              </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="">
               <div class="img-box">
-                <img src="images/mangga.jpg" alt="">
+                <img src="images/p2.png" alt="">
               </div>
               <div class="detail-box">
-                <div class="star_container">
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star-o" aria-hidden="true"></i>
-
-                </div>
-                <div class="text">
-                  <h6>
-                    Mangga
-                  </h6>
-                  <h6 class="price">
-                    <span>
-                      $
-                    </span>
-                    30
-                  </h6>
-                </div>
+                <h6>
+                  Watch
+                </h6>
+                <h6>
+                  Price
+                  <span>
+                    $300
+                  </span>
+                </h6>
               </div>
-            </div>
+              <div class="new">
+                <span>
+                  New
+                </span>
+              </div>
+            </a>
           </div>
-          <div class="item">
-            <div class="box">
-              <div class="btn_container">
-                <a href="">
-                  Buy Now
-                </a>
-              </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="">
               <div class="img-box">
-                <img src="images/anggur.jpg" alt="">
+                <img src="images/p3.png" alt="">
               </div>
               <div class="detail-box">
-                <div class="star_container">
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star-o" aria-hidden="true"></i>
-
-                </div>
-                <div class="text">
-                  <h6>
-                    Anggur
-                  </h6>
-                  <h6 class="price">
-                    <span>
-                      $
-                    </span>
-                    30
-                  </h6>
-                </div>
+                <h6>
+                  Teddy Bear
+                </h6>
+                <h6>
+                  Price
+                  <span>
+                    $110
+                  </span>
+                </h6>
               </div>
-            </div>
+              <div class="new">
+                <span>
+                  New
+                </span>
+              </div>
+            </a>
           </div>
-          <div class="item">
-            <div class="box">
-              <div class="btn_container">
-                <a href="">
-                  Buy Now
-                </a>
-              </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="">
               <div class="img-box">
-                <img src="images/rambutan.jpg" alt="">
+                <img src="images/p4.png" alt="">
               </div>
               <div class="detail-box">
-                <div class="star_container">
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star-o" aria-hidden="true"></i>
-
-                </div>
-                <div class="text">
-                  <h6>
-                    Rambutan
-                  </h6>
-                  <h6 class="price">
-                    <span>
-                      Rp
-                    </span>
-                    20,000
-                  </h6>
-                </div>
-                <div class="img-box">
-                <img src="images/blimbing.jpg" alt="">
+                <h6>
+                  Flower Bouquet
+                </h6>
+                <h6>
+                  Price
+                  <span>
+                    $45
+                  </span>
+                </h6>
               </div>
-              <div class="detail-box">
-                <div class="star_container">
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star-o" aria-hidden="true"></i>
-
-                </div>
-                <div class="text">
-                  <h6>
-                     Blimbing
-                  </h6>
-                  <h6 class="price">
-                    <span>
-                      $
-                    </span>
-                    15.000
-                  </h6>
-                </div>
-                <div class="img-box">
-                <img src="images/duren.jpg" alt="">
+              <div class="new">
+                <span>
+                  New
+                </span>
               </div>
-              <div class="detail-box">
-                <div class="star_container">
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star-o" aria-hidden="true"></i>
-
-                </div>
-                <div class="text">
-                  <h6>
-                     Duren
-                  </h6>
-                  <h6 class="price">
-                    <span>
-                      $
-                    </span>
-                    30
-                  </h6>
-                </div>
-              </div>
-            </div>
+            </a>
           </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="">
+              <div class="img-box">
+                <img src="images/p5.png" alt="">
               </div>
-            </div>
+              <div class="detail-box">
+                <h6>
+                  Teddy Bear
+                </h6>
+                <h6>
+                  Price
+                  <span>
+                    $95
+                  </span>
+                </h6>
+              </div>
+              <div class="new">
+                <span>
+                  New
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="">
+              <div class="img-box">
+                <img src="images/p6.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  Flower Bouquet
+                </h6>
+                <h6>
+                  Price
+                  <span>
+                    $70
+                  </span>
+                </h6>
+              </div>
+              <div class="new">
+                <span>
+                  New
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="">
+              <div class="img-box">
+                <img src="images/p7.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  Watch
+                </h6>
+                <h6>
+                  Price
+                  <span>
+                    $400
+                  </span>
+                </h6>
+              </div>
+              <div class="new">
+                <span>
+                  New
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="">
+              <div class="img-box">
+                <img src="images/p8.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  Ring
+                </h6>
+                <h6>
+                  Price
+                  <span>
+                    $450
+                  </span>
+                </h6>
+              </div>
+              <div class="new">
+                <span>
+                  New
+                </span>
+              </div>
+            </a>
           </div>
         </div>
       </div>
-    </div>
-    <div class="d-flex justify-content-center">
-      <a href="">
-        See more
-      </a>
+      <div class="btn-box">
+        <a href="">
+          View All Products
+        </a>
+      </div>
     </div>
   </section>
   @endsection

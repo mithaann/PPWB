@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomepageController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\Checkout;
+use App\Http\Controllers\Keranjang;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
