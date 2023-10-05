@@ -3,7 +3,6 @@
 use App\Http\Controllers\adminController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomepageController;
-use App\Http\Controllers\LoginController;
 use App\Http\Controllers\Checkout;
 use App\Http\Controllers\Keranjang;
 /*
@@ -23,8 +22,11 @@ Route::get('/about', [HomepageController::class, 'about'])->name('about');
 Route::get('/produk', [HomepageController::class, 'produk'])->name('produk');
 Route::get('/kategori', [HomepageController::class, 'kategori'])->name('kategori');
 Route::get('/news', [NewspageController::class, 'index']);
-Route::get('/login', [LoginController::class, 'login'])->name('login');
 Route::get('/admin', [adminController::class, 'index'])->name('index');
 Route::get('/form', [adminController::class, 'form'])->name('form');
 Route::get('/list', [adminController::class, 'list'])->name('list');
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
