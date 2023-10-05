@@ -16,12 +16,12 @@
               </div>
               <div class="detail-box">
                 <h6>
-                  Ring
+                  Pisang
                 </h6>
                 <h6>
-                  Price
+                  Rp.
                   <span>
-                    $200
+                    30.000
                   </span>
                 </h6>
               </div>
@@ -37,12 +37,12 @@
               </div>
               <div class="detail-box">
                 <h6>
-                  Watch
+                  Buah Naga
                 </h6>
                 <h6>
-                  Price
+                  Rp.
                   <span>
-                    $300
+                    15.000
                   </span>
                 </h6>
               </div>
@@ -58,12 +58,12 @@
               </div>
               <div class="detail-box">
                 <h6>
-                  Teddy Bear
+                  Blueberry
                 </h6>
                 <h6>
-                  Price
+                  Rp.
                   <span>
-                    $110
+                    35.000
                   </span>
                 </h6>
               </div>
@@ -79,12 +79,12 @@
               </div>
               <div class="detail-box">
                 <h6>
-                  Flower Bouquet
+                  Peach
                 </h6>
                 <h6>
-                  Price
+                  Rp.
                   <span>
-                    $45
+                    40.000
                   </span>
                 </h6>
               </div>
