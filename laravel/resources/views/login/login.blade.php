@@ -41,7 +41,11 @@
 							Username / Password?
 						</a>
 					</div>
-
+					<div class="text-center">
+       					 <a href="/">
+          					back
+						</a>
+      				</div>
 					<div class="text-center p-t-136">
 						<a class="txt2" href="#">
 							Create your Account

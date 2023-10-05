@@ -21,6 +21,7 @@ Route::get('/', [\App\Http\Controllers\HomepageController::class,'index']);
 Route::get('/kontak', [HomepageController::class, 'kontak'])->name('kontak');
 Route::get('/about', [HomepageController::class, 'about'])->name('about');
 Route::get('/produk', [HomepageController::class, 'produk'])->name('produk');
+Route::get('/kategori', [HomepageController::class, 'kategori'])->name('kategori');
 Route::get('/news', [NewspageController::class, 'index']);
 Route::get('/login', [LoginController::class, 'login'])->name('login');
 Route::get('/admin', [adminController::class, 'index'])->name('index');
