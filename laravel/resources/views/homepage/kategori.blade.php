@@ -46,7 +46,7 @@
                   </span>
                 </h6>
               </div>
-              <img src="{{asset('images\usa (1).jpeg')}}" alt="" class="new">
+              <img src="{{asset('images\indonesia.jpg')}}" alt="" class="new">
             </a>
           </div>
         </div>
@@ -67,7 +67,7 @@
                   </span>
                 </h6>
               </div>
-              <img src="{{asset('images\dutch (1).jpeg')}}" alt="" class="new">
+              <img src="{{asset('images\indonesia.jpg')}}" alt="" class="new">
             </a>
           </div>
         </div>
@@ -88,7 +88,7 @@
                   </span>
                 </h6>
               </div>
-              <img src="{{asset('images\kooreaa.png')}}" alt="" class="new">
+              <img src="{{asset('images\indonesia.jpg')}}" alt="" class="new">
             </a>
           </div>
         </div>
@@ -114,6 +114,7 @@
                   New
                 </span>
               </div>
+              <img src="{{asset('images\indonesia.jpg')}}" alt="" class="new">
             </a>
           </div>
         </div>
@@ -139,6 +140,7 @@
                   New
                 </span>
               </div>
+              <img src="{{asset('images\indonesia.jpg')}}" alt="" class="new">
             </a>
           </div>
         </div>
@@ -164,6 +166,7 @@
                   New
                 </span>
               </div>
+              <img src="{{asset('images\indonesia.jpg')}}" alt="" class="new">
             </a>
           </div>
         </div>
@@ -184,6 +187,7 @@
                   </span>
                 </h6>
               </div>
+              <img src="{{asset('images\indonesia.jpg')}}" alt="" class="new">
             </a>
           </div>
         </div>
@@ -212,7 +216,7 @@
                   </span>
                 </h6>
               </div>
-              <img src="{{asset('images\indonesia.jpg')}}" alt="" class="new">
+              <img src="{{asset('images\dutch (1).jpeg')}}" alt="" class="new">
             </a>
           </div>
         </div>
@@ -233,7 +237,7 @@
                   </span>
                 </h6>
               </div>
-              <img src="{{asset('images\usa (1).jpeg')}}" alt="" class="new">
+              <img src="{{asset('images\dutch (1).jpeg')}}" alt="" class="new">
             </a>
           </div>
         </div>
@@ -275,7 +279,7 @@
                   </span>
                 </h6>
               </div>
-              <img src="{{asset('images\kooreaa.png')}}" alt="" class="new">
+              <img src="{{asset('images\dutch (1).jpeg')}}" alt="" class="new">
             </a>
           </div>
         </div>
@@ -301,6 +305,7 @@
                   New
                 </span>
               </div>
+              <img src="{{asset('images\dutch (1).jpeg')}}" alt="" class="new">
             </a>
           </div>
         </div>
@@ -326,6 +331,7 @@
                   New
                 </span>
               </div>
+              <img src="{{asset('images\dutch (1).jpeg')}}" alt="" class="new">
             </a>
           </div>
         </div>
@@ -351,6 +357,7 @@
                   New
                 </span>
               </div>
+              <img src="{{asset('images\dutch (1).jpeg')}}" alt="" class="new">
             </a>
           </div>
         </div>
@@ -371,6 +378,7 @@
                   </span>
                 </h6>
               </div>
+              <img src="{{asset('images\dutch (1).jpeg')}}" alt="" class="new">
             </a>
           </div>
         </div>
@@ -399,7 +407,7 @@
                   </span>
                 </h6>
               </div>
-              <img src="{{asset('images\indonesia.jpg')}}" alt="" class="new">
+              <img src="{{asset('images\usa (1).jpeg')}}" alt="" class="new">
             </a>
           </div>
         </div>
@@ -441,7 +449,7 @@
                   </span>
                 </h6>
               </div>
-              <img src="{{asset('images\dutch (1).jpeg')}}" alt="" class="new">
+              <img src="{{asset('images\usa (1).jpeg')}}" alt="" class="new">
             </a>
           </div>
         </div>
@@ -462,7 +470,7 @@
                   </span>
                 </h6>
               </div>
-              <img src="{{asset('images\kooreaa.png')}}" alt="" class="new">
+              <img src="{{asset('images\usa (1).jpeg')}}" alt="" class="new">
             </a>
           </div>
         </div>
