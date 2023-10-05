@@ -12,7 +12,7 @@
           <div class="box">
             <a href="">
               <div class="img-box">
-                <img src="images/p1.png" alt="">
+                <img src="images/banana.png" alt="">
               </div>
               <div class="detail-box">
                 <h6>
@@ -25,11 +25,7 @@
                   </span>
                 </h6>
               </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
+              <img src="{{asset('images\indonesia.jpg')}}" alt="" class="new">
             </a>
           </div>
         </div>
@@ -37,7 +33,7 @@
           <div class="box">
             <a href="">
               <div class="img-box">
-                <img src="images/p2.png" alt="">
+                <img src="images/dragon fruit.png" alt="">
               </div>
               <div class="detail-box">
                 <h6>
@@ -50,11 +46,7 @@
                   </span>
                 </h6>
               </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
+              <img src="{{asset('images\usa (1).jpeg')}}" alt="" class="new">
             </a>
           </div>
         </div>
@@ -62,7 +54,7 @@
           <div class="box">
             <a href="">
               <div class="img-box">
-                <img src="images/p3.png" alt="">
+                <img src="images/blueberry.png" alt="">
               </div>
               <div class="detail-box">
                 <h6>
@@ -75,11 +67,7 @@
                   </span>
                 </h6>
               </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
+              <img src="{{asset('images\dutch (1).jpeg')}}" alt="" class="new">
             </a>
           </div>
         </div>
@@ -87,7 +75,7 @@
           <div class="box">
             <a href="">
               <div class="img-box">
-                <img src="images/p4.png" alt="">
+              <img src="images/peach.png" alt="">
               </div>
               <div class="detail-box">
                 <h6>
@@ -100,117 +88,12 @@
                   </span>
                 </h6>
               </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
+              <img src="{{asset('images\kooreaa.png')}}" alt="" class="new">
             </a>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box">
-            <a href="">
-              <div class="img-box">
-                <img src="images/p5.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Teddy Bear
-                </h6>
-                <h6>
-                  Price
-                  <span>
-                    $95
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box">
-            <a href="">
-              <div class="img-box">
-                <img src="images/p6.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Flower Bouquet
-                </h6>
-                <h6>
-                  Price
-                  <span>
-                    $70
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box">
-            <a href="">
-              <div class="img-box">
-                <img src="images/p7.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Watch
-                </h6>
-                <h6>
-                  Price
-                  <span>
-                    $400
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box">
-            <a href="">
-              <div class="img-box">
-                <img src="images/p8.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Ring
-                </h6>
-                <h6>
-                  Price
-                  <span>
-                    $450
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
       <div class="btn-box">
-        <a href="">
+        <a href="{{ route('kategori') }}">
           View All Products
         </a>
       </div>

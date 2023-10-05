@@ -26,4 +26,8 @@ class HomepageController extends Controller
         return view('homepage.produk', $data);
     }
 
+    public function kategori() {
+        $data = array('title' => 'Kategori');
+        return view('homepage.kategori', $data);
+    }
 }

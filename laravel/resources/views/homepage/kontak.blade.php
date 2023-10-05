@@ -37,7 +37,9 @@
          </div>
        </div>
        <div class="col-md-7">
-                    <img src="images/logom.png" alt="" style="width: 750px;">
+                    <img src="images/logom.png" alt="" style="width: 650px;">
+                    <img src="images/fruit image.png" alt="">
+
          </div>
        </div>
      </div>
