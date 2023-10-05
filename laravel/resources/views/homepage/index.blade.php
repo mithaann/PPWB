@@ -22,7 +22,7 @@
                       </span>
                     </h2>
                     <div>
-                      <a href="">
+                      <a href="{{ route('produk') }}">
                         Buy Now
                       </a>
                     </div>

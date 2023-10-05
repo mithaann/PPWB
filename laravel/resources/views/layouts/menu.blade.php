@@ -31,7 +31,6 @@
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="d-flex  flex-column flex-lg-row align-items-center w-100 justify-content-between">
               <ul class="navbar-nav  ">
                 <li class="nav-item active">
@@ -56,7 +55,6 @@
                   </span>
                 </a>
               </div>
-            </div>
           </div>
 
         </nav>
