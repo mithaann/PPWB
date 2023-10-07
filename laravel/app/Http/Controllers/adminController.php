@@ -13,10 +13,10 @@ class adminController extends Controller
 
     public function form() {
         $data = array('title' => 'form');
-        return view('admin.form', $data);
+        return view('admin.form_buah', $data);
     }
 
-    public function list() {
+    public function list_buah() {
         $data = array('title' => 'list');
         return view('admin.list', $data);
     }

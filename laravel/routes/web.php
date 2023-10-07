@@ -16,16 +16,25 @@ use App\Http\Controllers\Keranjang;
 |
 */
 
-Route::get('/', [\App\Http\Controllers\HomepageController::class,'index']);
-Route::get('/kontak', [HomepageController::class, 'kontak'])->name('kontak');
-Route::get('/about', [HomepageController::class, 'about'])->name('about');
-Route::get('/produk', [HomepageController::class, 'produk'])->name('produk');
-Route::get('/kategori', [HomepageController::class, 'kategori'])->name('kategori');
-Route::get('/news', [NewspageController::class, 'index']);
-Route::get('/admin', [adminController::class, 'index'])->name('index');
-Route::get('/form', [adminController::class, 'form'])->name('form');
-Route::get('/list', [adminController::class, 'list'])->name('list');
+Route::group(['prefix' => '/'], function () {
+    Route::get('/', [HomepageController::class, 'index']);
+    Route::get('/kontak', [HomepageController::class, 'kontak'])->name('kontak');
+    Route::get('/about', [HomepageController::class, 'about'])->name('about');
+    Route::get('/produk', [HomepageController::class, 'produk'])->name('produk');
+    Route::get('/kategori', [HomepageController::class, 'kategori'])->name('kategori');
+});
 
+// Routes for News
+Route::group(['prefix' => '/news'], function () {
+    Route::get('/', [NewspageController::class, 'index']);
+});
+
+// Routes for Admin
+Route::group(['prefix' => '/admin'], function () {
+    Route::get('/', [AdminController::class, 'index'])->name('index');
+    Route::get('/form', [AdminController::class, 'form'])->name('form');
+    Route::get('/list_buah', [AdminController::class, 'list_buah'])->name('list_buah');
+});
 
 Auth::routes();
 

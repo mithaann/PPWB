@@ -4,28 +4,35 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-return new class extends Migration
+class CreateProdukTable extends Migration
 {
     /**
      * Run the migrations.
      */
-    public function up()
+    public function up(): void
     {
-        Schema::create('your_table_name', function (Blueprint $table) {
+        Schema::create('produk', function (Blueprint $table) {
             $table->id();
             $table->string('buah_gambar');
             $table->string('buah_nama');
+            $table->double('harga', 12, 2)->default(0);
             $table->unsignedBigInteger('negara_id'); // Foreign key column
-            $table->string('keterangan');
+            $table->unsignedBigInteger('benua_id'); // Foreign key column
+            $table->text('keterangan');
             $table->integer('stock');
             $table->timestamps();
 
+            $table->foreign('benua_id')->references('id')->on('benua');
             $table->foreign('negara_id')->references('id')->on('negara');
         });
     }
 
-    public function down()
+    /**
+     * Reverse the migrations.
+     */
+    public function down(): void
     {
-        Schema::dropIfExists('your_table_name');
+        Schema::dropIfExists('produk');
     }
 };
+
