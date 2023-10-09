@@ -9,6 +9,6 @@ class benua extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'benua_name', 'benua_image'
+        'benua_name'
     ];
 }

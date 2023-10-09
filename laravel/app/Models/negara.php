@@ -9,7 +9,9 @@ class negara extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'negara_name', 'negara_image', 'benua_id'
+        'negara_name',
+        'negara_image',
+        'benua_id'
     ];
 
     public function benua()

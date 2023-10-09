@@ -9,13 +9,13 @@
                 <b class="logo-icon ps-2">
                     <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
                     <!-- Dark Logo icon -->
-                    <img src="../assets/images/logo-icon.png" alt="homepage" class="light-logo" width="25" />
+                    <img src="{{ asset('assets/images/logo-icon.png') }}" alt="homepage" class="light-logo" width="25" />
                 </b>
                 <!--End Logo icon -->
                 <!-- Logo text -->
                 <span class="logo-text ms-2">
                     <!-- dark Logo text -->
-                    <img src="../assets/images/logo-text.png" alt="homepage" class="light-logo" />
+                    <img src="{{ asset('assets/images/logo-text.png') }}" alt="homepage" class="light-logo" />
                 </span>
                 <!-- Logo icon -->
                 <!-- <b class="logo-icon"> -->
@@ -213,7 +213,7 @@
               "
                         href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false">
-                        <img src="../assets/images/users/1.jpg" alt="user" class="rounded-circle"
+                        <img src="{{asset('/assets/images/users/1.jpg')}}" alt="user" class="rounded-circle"
                             width="31" />
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end user-dd animated" aria-labelledby="navbarDropdown">
@@ -269,12 +269,12 @@
                         </span></a>
                     <ul aria-expanded="false" class="collapse first-level">
                         <li class="sidebar-item">
-                            <a href="{{ route('list_buah') }}" class="sidebar-link"><i class="mdi mdi-note-outline"></i><span
-                                    class="hide-menu"> buah</span></a>
+                            <a href="{{ route('list_buah') }}" class="sidebar-link"><i
+                                    class="mdi mdi-note-outline"></i><span class="hide-menu"> buah</span></a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="/" class="sidebar-link"><i class="mdi mdi-note-outline"></i><span
-                                    class="hide-menu"> negara</span></a>
+                            <a href="{{ route('list_negara') }}" class="sidebar-link"><i
+                                    class="mdi mdi-note-outline"></i><span class="hide-menu"> negara</span></a>
                         </li>
                     </ul>
             </ul>

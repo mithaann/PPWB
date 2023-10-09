@@ -34,7 +34,7 @@
                     {{ __('Laporan') }}
                 </h2>
                 <div class="card-tools">
-                    <a href="{{route('form')}}" class="btn btn-outline-dark btn-sm">
+                    <a href="{{route('form_buah')}}" class="btn btn-outline-dark btn-sm">
                         <i class="fas fa-plus"></i> Input Data
                     </a>
                 </div>
@@ -47,28 +47,17 @@
                     <thead class="thead-dark">
                         <tr>
                             <th>no</th>
-                            <th>location</th>
-                            <th>time</th>
-                            <th>status</th>
-                            <th>action</th>
+                            <th>Gambar</th>
+                            <th>Nama</th>
+                            <th>Negara</th>
+                            <th>Harga</th>
+                            <th>Stock</th>
+                            <th>Action</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>lorem</td>
-                            <td>lorem</td>
-                            <td>00.00</td>
-                            <td>
-                                <p class="border border-primary d-inline-flex p-1 text-white bg-success rounded">
-                                    ONLINE
-                                </p>
-                            </td>
-                            <td>
-                                <form action="" onsubmit="" method="POST">
-                                    <a href="/" class="btn btn-warning btn-sm">Edit</a>
-                                    <button type="submit" class="btn btn-sm btn-danger">HAPUS</button>
-                                </form>
-                            </td>
+
                         </tr>
                     </tbody>
                 </table>
