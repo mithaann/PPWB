@@ -69,9 +69,9 @@
                                     <td>{{ $buah->harga }}</td>
                                     <td>{{ $buah->stock }}</td>
                                     <td>
-                                        <form action="/" method="POST"
+                                        <form action="{{route('hapus_buah', $buah->id)}}" method="POST"
                                             onsubmit="return confirm('Apakah Anda Yakin ?');">
-                                            <a href="/" class="btn btn-warning btn-sm">Edit</a>
+                                            <a href="{{route('update_page_buah', $buah->id)}}" class="btn btn-warning btn-sm">Edit</a>
                                             @csrf
                                             @method('DELETE')
                                             <button type="submit" class="btn btn-sm btn-danger">HAPUS</button>

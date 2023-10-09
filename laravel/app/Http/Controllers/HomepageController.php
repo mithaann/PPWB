@@ -35,4 +35,9 @@ class HomepageController extends Controller
         $data = array('title' => 'item');
         return view('item.index', $data);
     }
+
+    public function item_content() {
+        $data = array('title' => 'item');
+        return view('item.content', $data);
+    }
 }

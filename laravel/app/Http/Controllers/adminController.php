@@ -63,35 +63,43 @@ class adminController extends Controller
         return view('admin.update_negara', compact('benuas', 'negara'));
     }
 
+    public function update_page_buah(int $id): View
+    {
+        $negara = Negara::all(); // Retrieve all negaras
+        $buahs = Produk::findOrFail($id); // Find the specific buah record by ID
+
+        return view('admin.update_buah', compact('buahs', 'negara'));
+    }
+
 
     public function store_buah(Request $request): RedirectResponse
     {
         // Validate the request data
-    $this->validate($request, [
-        'buah_nama' => 'required',
-        'harga' => 'required|numeric',
-        'gambar' => 'required|image|mimes:jpeg,jpg,png|max:2048',
-        'negara_id' => 'required|exists:negaras,id',
-        'stock' => 'required|numeric',
-        'keterangan' => 'required',
-    ]);
+        $this->validate($request, [
+            'buah_nama' => 'required',
+            'harga' => 'required|numeric',
+            'gambar' => 'required|image|mimes:jpeg,jpg,png|max:2048',
+            'negara_id' => 'required|exists:negaras,id',
+            'stock' => 'required|numeric',
+            'keterangan' => 'required',
+        ]);
 
-    // Upload image
-    $imagePath = $request->file('gambar')->store('public/fruit');
-    $imageFileName = basename($imagePath);
+        // Upload image
+        $imagePath = $request->file('gambar')->store('public/fruit');
+        $imageFileName = basename($imagePath);
 
-    // Create a new Buah record in the database
-    $buah = produk::create([
-        'buah_gambar' => $imageFileName,
-        'buah_nama' => $request->buah_nama,
-        'harga' => $request->harga,
-        'negara_id' => $request->negara_id,
-        'stock' => $request->stock,
-        'keterangan' => $request->keterangan,
-    ]);
+        // Create a new Buah record in the database
+        $buah = produk::create([
+            'buah_gambar' => $imageFileName,
+            'buah_nama' => $request->buah_nama,
+            'harga' => $request->harga,
+            'negara_id' => $request->negara_id,
+            'stock' => $request->stock,
+            'keterangan' => $request->keterangan,
+        ]);
 
-    // Redirect to a view or route after successfully creating the record
-    return redirect()->route('list_buah')->with(['success' => 'Data Buah Berhasil Disimpan!']);
+        // Redirect to a view or route after successfully creating the record
+        return redirect()->route('list_buah')->with(['success' => 'Data Buah Berhasil Disimpan!']);
     }
 
     public function store_negara(Request $request): RedirectResponse
@@ -159,6 +167,56 @@ class adminController extends Controller
         return redirect()->route('list_negara')->with(['success' => 'Data Negara Berhasil Diubah!']);
     }
 
+    public function edit_buah(Request $request, $id): RedirectResponse
+    {
+        // Validate the form
+        $this->validate($request, [
+            'buah_nama' => 'required',
+            'harga' => 'required|numeric',
+            'gambar' => 'image|mimes:jpeg,jpg,png|max:2048',
+            'negara_id' => 'required|exists:negaras,id',
+            'stock' => 'required|numeric',
+            'keterangan' => 'required',
+        ]);
+
+        // Get Buah by ID
+        $buah = Produk::findOrFail($id);
+
+        // Check if image is uploaded
+        if ($request->hasFile('gambar')) {
+            // Upload new image
+            $imagePath = $request->file('gambar')->store('public/fruit');
+            $imageFileName = basename($imagePath);
+
+            // Delete old image if it exists
+            if ($buah->buah_gambar) {
+                Storage::delete('public/fruit/' . $buah->buah_gambar);
+            }
+
+            // Update Buah with new image
+            $buah->update([
+                'buah_nama' => $request->buah_nama,
+                'harga' => $request->harga,
+                'buah_gambar' => $imageFileName,
+                'negara_id' => $request->negara_id,
+                'stock' => $request->stock,
+                'keterangan' => $request->keterangan,
+            ]);
+        } else {
+            // Update Buah without changing the image
+            $buah->update([
+                'buah_nama' => $request->buah_nama,
+                'harga' => $request->harga,
+                'negara_id' => $request->negara_id,
+                'stock' => $request->stock,
+                'keterangan' => $request->keterangan,
+            ]);
+        }
+
+        // Redirect to index
+        return redirect()->route('list_buah')->with(['success' => 'Data Buah Berhasil Diubah!']);
+    }
+
     public function negara_hapus($id): RedirectResponse
     {
         // Get negara by ID
@@ -172,5 +230,20 @@ class adminController extends Controller
 
         // Redirect to index
         return redirect()->route('list_negara')->with(['success' => 'Data Berhasil Dihapus!']);
+    }
+
+    public function buah_hapus($id): RedirectResponse
+    {
+        // Get negara by ID
+        $buahs = produk::findOrFail($id);
+
+        // Delete image if it exists
+        Storage::delete('public/fruit/' . $buahs->negara_image);
+
+        // Delete the negara
+        $buahs->delete();
+
+        // Redirect to index
+        return redirect()->route('list_buah')->with(['success' => 'Data Berhasil Dihapus!']);
     }
 }

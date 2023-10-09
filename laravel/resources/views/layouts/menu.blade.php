@@ -24,7 +24,7 @@
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
             <a class="navbar-brand" href="/">
-                <img src="images/logom.png" alt="" style="width: 100px; height 75px; ">
+                <img src="images/logom  .png" alt="" style="width: 100px; height 75px; ">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

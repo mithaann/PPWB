@@ -28,7 +28,13 @@
                     <span class="symbol-input100">
                         <i class="fa fa-lock" aria-hidden="true"></i>
                     </span>
+                    @if ($errors->has('password'))
+                        <span class="invalid-feedback" role="alert" style="display: block;">
+                            <strong>{{ $errors->first('password') }}</strong>
+                        </span>
+                    @endif
                 </div>
+
 
                 <div class="container-login100-form-btn">
                     <button class="login100-form-btn" type="submit">
