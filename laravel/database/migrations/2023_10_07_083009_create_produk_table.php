@@ -11,19 +11,17 @@ class CreateProdukTable extends Migration
      */
     public function up(): void
     {
-        Schema::create('produk', function (Blueprint $table) {
+        Schema::create('produks', function (Blueprint $table) {
             $table->id();
             $table->string('buah_gambar');
             $table->string('buah_nama');
             $table->double('harga', 12, 2)->default(0);
             $table->unsignedBigInteger('negara_id'); // Foreign key column
-            $table->unsignedBigInteger('benua_id'); // Foreign key column
             $table->text('keterangan');
             $table->integer('stock');
             $table->timestamps();
 
-            $table->foreign('benua_id')->references('id')->on('benua');
-            $table->foreign('negara_id')->references('id')->on('negara');
+            $table->foreign('negara_id')->references('id')->on('negaras');
         });
     }
 

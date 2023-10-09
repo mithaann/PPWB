@@ -21,10 +21,14 @@ class adminController extends Controller
 
     public function form_buah()
     {
-        $data = array('title' => 'form');
+        $negara = Negara::all();
+        $data = [
+            'title' => 'form',
+            'negara' => $negara,
+            // Change 'benuas' to 'negara' to match the variable name in the view
+        ];
         return view('admin.form_buah', $data);
     }
-
     public function form_negara()
     {
         $benuas = Benua::all(); // Retrieve all benuas
@@ -39,8 +43,9 @@ class adminController extends Controller
 
     public function list_buah()
     {
-        $data = array('title' => 'list');
-        return view('admin.list_buah', $data);
+        $negara = Negara::latest()->paginate(7); // Paginate negara records
+        $buahs = produk::all();
+        return view('admin.list_buah', compact('buahs', 'negara'));
     }
 
     public function list_negara()
@@ -59,10 +64,36 @@ class adminController extends Controller
     }
 
 
-    public function store_buah()
+    public function store_buah(Request $request): RedirectResponse
     {
+        // Validate the request data
+    $this->validate($request, [
+        'buah_nama' => 'required',
+        'harga' => 'required|numeric',
+        'gambar' => 'required|image|mimes:jpeg,jpg,png|max:2048',
+        'negara_id' => 'required|exists:negaras,id',
+        'stock' => 'required|numeric',
+        'keterangan' => 'required',
+    ]);
 
+    // Upload image
+    $imagePath = $request->file('gambar')->store('public/fruit');
+    $imageFileName = basename($imagePath);
+
+    // Create a new Buah record in the database
+    $buah = produk::create([
+        'buah_gambar' => $imageFileName,
+        'buah_nama' => $request->buah_nama,
+        'harga' => $request->harga,
+        'negara_id' => $request->negara_id,
+        'stock' => $request->stock,
+        'keterangan' => $request->keterangan,
+    ]);
+
+    // Redirect to a view or route after successfully creating the record
+    return redirect()->route('list_buah')->with(['success' => 'Data Buah Berhasil Disimpan!']);
     }
+
     public function store_negara(Request $request): RedirectResponse
     {
         // Validate the request data

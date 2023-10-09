@@ -11,14 +11,14 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('negara', function (Blueprint $table) {
+        Schema::create('negaras', function (Blueprint $table) {
             $table->id();
             $table->string('negara_name');
             $table->string('negara_image');
             $table->unsignedBigInteger('benua_id'); // Foreign key column
             $table->timestamps();
 
-            $table->foreign('benua_id')->references('id')->on('benua');
+            $table->foreign('benua_id')->references('id')->on('benuas');
 
         });
     }

@@ -40,6 +40,9 @@ Route::group(['prefix' => '/admin'], function () {
     Route::get('/store_negara/{id}/update', [AdminController::class, 'update_page_negara'])->name('update_page_negara');
     Route::put('/store_negara/{id}', [AdminController::class, 'edit_negara'])->name('edit_negara');
     Route::delete('/hapus_negara/{id}', [AdminController::class, 'negara_hapus'])->name('hapus_negara');
+    Route::POST('/store_buah', [AdminController::class, 'store_buah'])->name('store_buah');
+
+
 });
 
 Auth::routes();
