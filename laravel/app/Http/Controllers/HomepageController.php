@@ -30,4 +30,9 @@ class HomepageController extends Controller
         $data = array('title' => 'Kategori');
         return view('homepage.kategori', $data);
     }
+
+    public function item() {
+        $data = array('title' => 'item');
+        return view('item.index', $data);
+    }
 }

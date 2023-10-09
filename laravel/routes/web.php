@@ -21,6 +21,7 @@ Route::group(['prefix' => '/'], function () {
     Route::get('/kontak', [HomepageController::class, 'kontak'])->name('kontak');
     Route::get('/about', [HomepageController::class, 'about'])->name('about');
     Route::get('/produk', [HomepageController::class, 'produk'])->name('produk');
+    Route::get('/item', [HomepageController::class, 'item'])->name('item');
     Route::get('/kategori', [HomepageController::class, 'kategori'])->name('kategori');
 });
 
