@@ -52,7 +52,7 @@
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="box">
-            <a href="">
+            <a href="{{ route('item.content)}}">
               <div class="img-box">
                 <img src="images/blueberry.png" alt="">
               </div>
