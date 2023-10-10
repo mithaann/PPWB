@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\produk;
 
 class HomepageController extends Controller
 {
@@ -22,8 +23,9 @@ class HomepageController extends Controller
     }
 
     public function produk() {
+        $produk = produk::all();
         $data = array('title' => 'Produk Kami');
-        return view('homepage.produk', $data);
+        return view('homepage.produk', compact('produk'),$data);
     }
 
     public function kategori() {
