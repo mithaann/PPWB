@@ -50,6 +50,9 @@
                                     <div class="col-sm-9">
                                         <input type="file" class="form-control @error('negara_image') is-invalid @enderror"
                                             name="negara_image">
+                                            <div class="mt-2">
+                                                <img src="{{ asset('storage/country/' . $negara->negara_image) }}" alt="Buah Image" width="150">
+                                            </div>
                                         @error('negara_image')
                                             <span class="invalid-feedback" role="alert">
                                                 <strong>{{ $message }}</strong>
