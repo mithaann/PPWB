@@ -20,7 +20,6 @@ class CreateProdukTable extends Migration
             $table->text('keterangan');
             $table->integer('stock');
             $table->timestamps();
-
             $table->foreign('negara_id')->references('id')->on('negaras');
         });
     }

@@ -106,6 +106,7 @@
                                     </div>
                                 </div>
                             </div>
+                            {{-- <input type="hidden" name="id_benua" value="{{$negara->benua->id}}"> --}}
                             <div class="border-top">
                                 <div class="card-body">
                                     <button type="submit" class="btn btn-primary">Submit</button>

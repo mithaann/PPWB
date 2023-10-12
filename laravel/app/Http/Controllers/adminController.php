@@ -21,10 +21,12 @@ class adminController extends Controller
 
     public function form_buah()
     {
+        $benua = benua::all();
         $negara = Negara::all();
         $data = [
             'title' => 'form',
             'negara' => $negara,
+            'benua' => $benua
             // Change 'benuas' to 'negara' to match the variable name in the view
         ];
         return view('admin.form_buah', $data);

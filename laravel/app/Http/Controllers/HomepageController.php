@@ -29,8 +29,9 @@ class HomepageController extends Controller
     }
 
     public function kategori() {
+        $produk = produk::all();
         $data = array('title' => 'Kategori');
-        return view('homepage.kategori', $data);
+        return view('homepage.kategori', $data, compact('produk'));
     }
 
     public function item() {
