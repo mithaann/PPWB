@@ -9,7 +9,7 @@
         </h2>
       </div>
       <div class="img-box">
-        <img src="images/aboutbuah.png" alt="">
+        <img src="images/aboutbuah.jpg" alt="">
       </div>
       <div class="detail-box">
         <p>
