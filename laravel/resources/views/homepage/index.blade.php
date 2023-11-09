@@ -274,7 +274,8 @@
       </div>
       <div class="detail-box">
         <p class="txt-sub">
-        Our imported fruits are guaranteed to be fresh, grown from selected trees and cultivated regularly.
+        Feefruit adalah sebuah platform e-commerce yang khusus menghadirkan transaksi jual beli buah impor dan lokal. Situs ini dirancang dengan struktur yang efisien untuk memudahkan navigasi pengguna. Halaman utama menampilkan penawaran terbaru dan rekomendasi buah sesuai musim. Kategori buah tersusun rapi, meliputi buah eksotis, 
+        tropis, dan musiman, dengan informasi detail, gambar, asal, dan manfaat kesehatan yang disertakan.
         </p>
         <div class="d-flex justify-content-center">
           <a href="{{ route('about') }}">
